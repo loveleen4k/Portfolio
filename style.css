@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400;700&display=swap");
+
+    html {
+        background-image: linear-gradient(to right, #364a63 30%, #603c41 70%);
+        color:rgb(255, 255, 255);
+        font-family: "Tektur", cursive;
+        position: relative;
+    }
+    #stick{
+        position: -webkit-sticky;
+        position: sticky;
+        background-image: linear-gradient(to right, #364a63 30%, #603c41 70%);
+        top: 0;
+    }
+    #main {
+        display: flex;
+    }
+
+    #photo>img {
+        margin:20px 0px 0px 50px;;
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        transition: 1s ease;
+    }
+
+    #photo>img:hover {
+        width: 250px;
+        height: 250px;
+    }
+
+    #bio {
+        padding: 20px;
+        display: flex;
+        flex-grow: 3;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #name {
+        font-size: 40px;
+    }
+
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-right: 50px;
+        text-align: center;
+        font-size: large;
+    }
+    #icons{
+        font-size: x-small;
+    }
+    #icons>img{
+        width: 35px;
+        height: 35px;
+        margin:5px;
+    }
+    a>img{
+        width: 35px;
+        height: 35px;
+        margin:5px;
+    }
+    #b{
+        height: 5000px;
+    }
+
+
+   
+    
+    .navbar {
+        text-align: center; 
+    display: flex; 
+    justify-content: center;
+        background-color: rgba(150, 150, 150, 0.259);
+    }
+    
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-content: center;
+    }
+    
+    .navbar li {
+        align-items: center;
+        margin-right: 20px;
+    }
+    
+    .navbar a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px;
+        display: block;
+    }
+    
+    .navbar a:hover {
+        background-color: #555;
+    }
+    
+    .active {
+        background-color: #555;
+    }
+    
+    .tab-content-item {
+        display: none;
+        padding: 20px;
+    }
+    
+    .show {
+        display: block;
+       
+    }
+    
+    .my-link{
+        font-size: larger;
+        color: white;
+
+    }
+
+    .my-link:hover {
+        color: rgb(0, 0, 0);
+    }
+
+      
